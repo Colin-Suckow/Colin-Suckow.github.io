@@ -21,7 +21,7 @@
 				
 			 </svg>
 			 
-		<h1>Colin Suckow's Portfoilio Page</h1>
+		<h1>Colin Suckow's Portfoilio</h1>
 		
     </div>
 	
@@ -124,6 +124,42 @@
         </div>
     </div>
     
+	<div class="start-bar">
+		<img src="assets/start.jpg" height="30px;">
+		
+		<div class="clock">
+			<mark id="clockText" style="background-color:#B8ACAD;"> 3:42 pm </mark>
+		</div>
+		
+		<script>
+
+		function clockLoad() {
+			setInterval(setClock, 5 * 1000) //Update clock every 5 second to ensure we don't miss an update
+			setClock();
+		}
+		
+		function setClock() {
+			var date = new Date();
+			var hour = date.getHours();
+			var minutes = date.getMinutes();
+			var period = "";
+
+			if(hour > 12) {
+				period = "pm"
+				hour -= 12;
+			} else {
+				period = "am"
+			}
+
+			document.getElementById('clockText').innerHTML = hour + ":" + minutes + "" + period;
+		}
+
+		window.onload = clockLoad();
+		
+		</script>
+		
+		
+	</div>
 
 </body>
 
@@ -165,6 +201,27 @@ h1 {
 	
 }
 
+.start-bar {
+	position: fixed;
+	display: flex;
+	bottom: 0;
+	width: 100%;
+	background-color: #C5C7C2;
+	border-top-style: groove;
+	border-top-width: 3px;
+	padding: 0;
+}
+
+.clock {
+	position: fixed;
+	right: 10;
+	bottom: 2;
+	font-size: 150%;
+	text-align: center;
+	border-style: inset;
+	border-width: 2px;
+}
+
 .description {
     width: 40%;
     text-align: center;
@@ -172,7 +229,7 @@ h1 {
     box-shadow: 3px 3px black;
     background: #C5C7C2;
     outline: 1px black solid;
-	margin-top 3%;
+	margin-top: 3%;
 	border-width: 3px;
 	border-style: groove;
 }
