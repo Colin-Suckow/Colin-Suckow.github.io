@@ -1,4 +1,24 @@
 .jumbotron {
 	background: url('assets/earth.jpg');
 	color: white;
+	margin-bottom: 0;
+
+}
+
+.social-bar {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+	background: #383838;
+	text-align: center;
+
+}
+
+body {
+	background: black;
+	color: white;
+}
+
+hr {
+	background: white;
 }
