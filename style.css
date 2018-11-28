@@ -22,3 +22,13 @@ body {
 hr {
 	background: white;
 }
+
+.project-card {
+	background: #383838;
+	border-radius: 15px;
+}
+
+.project-img {
+	padding-right: 0px;
+	padding-bottom: 10px; 
+}
