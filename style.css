@@ -15,7 +15,7 @@
 }
 
 body {
-	background: black;
+	background: rgb(37, 37, 37);
 	color: white;
 }
 
@@ -24,12 +24,17 @@ hr {
 }
 
 .project-card {
-	background: #383838;
-	border-radius: 15px;
+	background: #5c5c5c;
+	border-radius: 10px;
+	margin: 10px;
 }
 
 .project-img {
 	padding-right: 0px;
 	padding-bottom: 10px;
 	width: 200px;
+}
+
+.project-title {
+	margin-bottom: 20px;
 }
