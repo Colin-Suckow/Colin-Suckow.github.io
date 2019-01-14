@@ -38,3 +38,13 @@ hr {
 .project-title {
 	margin-bottom: 20px;
 }
+
+#header-image {
+	border-radius: 50%;
+	width: 300px;
+	float: right;
+}
+
+#header-text {
+	float: left;
+}

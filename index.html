@@ -18,12 +18,20 @@
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
         <div class="container">
-          <h1 class="display-3">Welcome!</h1>
-          <p>
-            My name is Colin Suckow. I live in Bend Oregon and I enjoy taking advantage of all the activities that bend offers, such as mountian biking and skiing. This page is my portfolio
-            and you can find links to my resume and various socials. In the future there will be a blog here as well where I post my projects.
-          </p>
+          <div class="row">
 
+            <div class="col-sm" id="header-text">
+              <img id="header-image" src="assets/placeholder.jpg">
+            </div>
+
+            <div class="col-sm">
+              <h1 class="display-3">Hello!</h1>
+              <p>
+                My name is Colin Suckow, I'm a first year computer science student attending Oregon State University - Cascades. I have worked on projects in various fields, including
+                web development, android development, robotics and graphics generation. I enjoy my free time by learning new skills and working on projects in the woodshop.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -34,37 +42,144 @@
             <a class="btn btn-dark" href="https://github.com/Colin-Suckow" role="button">Github</a>
             <a class="btn btn-dark" href="https://stackoverflow.com/users/10422086/colin-suckow?tab=profile" role="button">Stack Overflow</a>
             <a class="btn btn-dark" href="Resume.pdf" role="button">Resume</a>
-            <a class="btn btn-dark" href="projects.html" role="button">Projects</a>
 
         </div>
       </div>
 
+      <h1 class="display-3 text-center">Projects</h1>
+
       <div class="container">
-        <!-- Example row of columns -->
+
         <div class="row">
-          <div class="col-md-4">
-            <h2>My Past</h2>
-            <p>
-              I was born in Bend, OR in 1999. I grew up swimming in the river and tinkering with my dad's electronics, sometimes a bit too destructively.
-            </p>
-          </div>
-          <div class="col-md-4">
-            <h2>My Experience</h2>
-            <p>
-                I love learning new skills, so I like to bounce around a lot. However my main focus and experience is in android app development, and embeded microprocessors.
-            </p>
-          </div>
-          <div class="col-md-4">
-            <h2>My Hobbies</h2>
-            <p>
-              I enjoy spending my time by cooking, playing video games with friends, and hacking on fun projects. I also like to work on, and talk about cars with other people.
-            </p>
-          </div>
+            <div class="col-sm">
+                <div class="card project-card">
+                    <h3 class="text-center display-4">Zagmap</h3>
+
+                    <div class="container">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <img src="assets/zagmap.png" class="project-img" width="300px">
+                                </div>
+                                <div class="col-sm">
+                                    <p>Zagmap is a website that maps rides taken on a local bike sharing service. Data was provided by the city of bend. </p>
+                                    <a href="https://colin-suckow.github.io/zagster-client/">Demo</a>
+                                    <a href="https://github.com/Colin-Suckow/zagster-client">Source</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="card project-card">
+                        <h3 class="text-center display-4">Zagmap Server</h3>
+
+                        <div class="container">
+                                <div class="row">
+                                    <div class="col-sm">
+                                        <img src="assets/zagmap.png" class="project-img" width="300px">
+                                    </div>
+                                    <div class="col-sm">
+                                        <p>Zagmap server is the backend that provides data for zagmap, a data mapping application. The server is built using express and it pulls data 
+                                            from a postgres sql database. The server responds to http requests containg a date with the data on the bike rides taken on that day.
+                                        </datagrid></p>
+                                        <a href="https://colin-suckow.github.io/zagster-client/">Demo</a>
+                                        <a href="https://github.com/Colin-Suckow/cs160-zagster-service">Source</a>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="card project-card">
+                      <h3 class="text-center display-4">Simple 3D</h3>
+  
+                      <div class="container">
+                              <div class="row">
+                                  <div class="col-sm">
+                                      <img src="assets/3dRender.gif" class="project-img" width="300px">
+                                  </div>
+                                  <div class="col-sm">
+                                      <p>Simple 3D is a 3d mesh renderer written in processing. Vertices and triangles are stored and rendered to the screen with a projection matrix. Supports translation
+                                        and rotation of the mesh.
+                                      </datagrid></p>
+                                      <a href="https://github.com/Colin-Suckow/simple-3d-engine">Source</a>
+                                  </div>
+                              </div>
+                          </div>
+                  </div>
+
+            </div>
+
+            <div class="col-sm">
+                
+                <div class="card project-card">
+                    <h3 class="text-center display-4">Wattlogix Companion App</h3>
+
+                    <div class="container">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <img src="assets/appDemo.png" class="project-img" width="300px">
+                                </div>
+                                <div class="col-sm">
+                                    <p>
+                                        This android app allows the user to view information about the battery controller in their rv equiped with a WattLogix battery control module.
+                                        The app uses Bluetooth LE to retrieve the voltage data from the battery control board and then displays it in the app's interface. This app was written in java and makes use
+                                        of android's bluetooth library and rxJava for controlling connetion state.
+                                    </p>
+                                    <a href="https://play.google.com/store/apps/details?id=com.earthcruiser.bluetoothtest">Play Store Listing</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+
+                <div class="card project-card">
+                    <h3 class="text-center display-4">Simple FPS</h3>
+
+                    <div class="container">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <img src="assets/simpleFPS.gif" class="project-img" width="300px">
+                                </div>
+                                <div class="col-sm">
+                                    <p>Simple FPS is a first person viewpoint renderer based on the original wolfenstein game written in processing 3.4. Simple raycasts are used to determine
+                                        the how the walls are drawn and shaded.
+                                    </datagrid></p>
+                                    <a href="https://github.com/Colin-Suckow/simple-fps">Source</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="card project-card">
+                    <h3 class="text-center display-4">FIRST Robotics</h3>
+
+                    <div class="container">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <img src="assets/frcRobot.jpg" class="project-img" width="300px">
+                                    <img src="assets/frcRobotBack.jpg" class="project-img" width="300px">
+                                </div>
+                                <div class="col-sm">
+                                    <p>In high school I was a member of my school's robotics team. Pictured is our robot from 2016 which made it to the world championship.
+                                        During this year I was lead programmer and mentor to our newer programmers. The code for the robot was written in java, and was responsible for responding to
+                                        commands from a network connected laptop and following a path on its own, using internal sensor data nad pre planed routes.
+                                    </datagrid></p>
+                                    <a href="https://summitrobotics.com/">Team</a>
+                                    <a href="https://summitrobotics.com/"></a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+
+
+            </div>
+
+    </div>
+
+
         </div>
 
-        <hr>
-
-      </div> <!-- /container -->
+    </div>
 
 
     </main>
