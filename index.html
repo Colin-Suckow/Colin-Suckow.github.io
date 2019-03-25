@@ -1,198 +1,74 @@
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Colin Suckow's portfolio site">
-    <meta name="author" content="Colin Suckow">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Colin Suckow's portfolio site">
+        <meta name="author" content="Colin Suckow">
+        
+        <title>Suckow</title>
 
-    <title>Colin Suckow</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!-- Custom styles for this template -->
-    <link href="style.css" rel="stylesheet">
-  </head>
-  <body>
-    <main role="main">
-
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <div class="container">
-          <div class="row">
-
-            <div class="col-sm" id="header-text">
-              <img id="header-image" src="assets/portrait.jpg">
-            </div>
-
-            <div class="col-sm">
-              <h1 class="display-3">Hello!</h1>
-              <p>
-                My name is Colin Suckow, I'm a first year computer science student attending Oregon State University - Cascades. I have worked on projects in various fields, including
-                web development, android development, robotics and graphics generation. I enjoy my free time by learning new skills and working on projects in the woodshop.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="container-fluid social-bar">
-        <div class="btn-group">
-
-            <a class="btn btn-dark" href="https://github.com/Colin-Suckow" role="button">Github</a>
-            <a class="btn btn-dark" href="https://stackoverflow.com/users/10422086/colin-suckow?tab=profile" role="button">Stack Overflow</a>
-            <a class="btn btn-dark" href="Resume.pdf" role="button">Resume</a>
-
-        </div>
-      </div>
-
-      <h1 class="display-3 text-center">Projects</h1>
-
-      <div class="container">
-
-        <div class="row">
-            <div class="col-sm">
-                <div class="card project-card">
-                    <h3 class="text-center display-4">Zagmap</h3>
-
-                    <div class="container">
-                            <div class="row">
-                                <div class="col-sm">
-                                    <img src="assets/zagmap.png" class="project-img" width="300px">
-                                </div>
-                                <div class="col-sm">
-                                    <p>Zagmap is a website that maps rides taken on a local bike sharing service. Data was provided by the city of bend. </p>
-                                    <a href="https://colin-suckow.github.io/zagster-client/">Demo</a>
-                                    <a href="https://github.com/Colin-Suckow/zagster-client">Source</a>
-                                </div>
-                            </div>
-                        </div>
+    <body>
+        
+        <div class="container" id="body">
+            <div class="row" id="header">
+                <div class="col align-self-end">
+                    <h1 id="header__title">Colin Suckow</h1>
                 </div>
-
-                <div class="card project-card">
-                        <h3 class="text-center display-4">Zagmap Server</h3>
-
-                        <div class="container">
-                                <div class="row">
-                                    <div class="col-sm">
-                                        <img src="assets/zagmap.png" class="project-img" width="300px">
-                                    </div>
-                                    <div class="col-sm">
-                                        <p>Zagmap server is the backend that provides data for zagmap, a data mapping application. The server is built using express and it pulls data 
-                                            from a postgres sql database. The server responds to http requests containg a date with the data on the bike rides taken on that day.
-                                        </p>
-                                        <a href="https://colin-suckow.github.io/zagster-client/">Demo</a>
-                                        <a href="https://github.com/Colin-Suckow/cs160-zagster-service">Source</a>
-                                    </div>
-                                </div>
+                <div class="col align-self-end">
+                    <div class="container" id="header__menu">
+                        <div class="row" id="header__menu__row">
+                            <div class="col-md-auto">        
+                                <a id="header__menu__projects" class="nav-item" href="#"><h6>Projects</h6></a>    
                             </div>
+    
+                            <div class="col-md-auto">   
+                                <a id="header__menu__about" class="nav-item"  href="#"><h6>About</h6></a>  
+                            </div>
+       
+                            <div class="col-md-auto">     
+                                <a id="header__menu__contact" class="nav-item"  href="#"><h6>Contact</h6></a>
+                            </div>
+                        </div>       
+                    </div>
+                </div>
+            </div>
+
+            <hr id="header__divider">
+            
+
+            <div class="row">
+                <div class="col">
+                    <div id="projects--android" class="project-card">
+                       
+                        <div class="row">
+                            <div id="projects--android__title" class="project-card__title">
+                                <h3>Android</h3>
+                                <hr>
+                            </div>
+                        </div>     
+        
+                        <div class="row">
+                            <div class="col card">
+                                <h3>Balance Board</h3>
+                            </div>
+                            <div class="col card">
+                                    <h3>Balance Board</h3>
+                                </div>
+                        </div> 
                     </div>
 
-                    <div class="card project-card">
-                      <h3 class="text-center display-4">Simple 3D</h3>
-  
-                      <div class="container">
-                              <div class="row">
-                                  <div class="col-sm">
-                                      <img src="assets/3dRender.gif" class="project-img" width="300px">
-                                  </div>
-                                  <div class="col-sm">
-                                      <p>Simple 3D is a 3d mesh renderer written in processing. Vertices and triangles are stored and rendered to the screen with a projection matrix. Supports translation
-                                        and rotation of the mesh.
-                                      </p>
-                                      <a href="https://github.com/Colin-Suckow/simple-3d-engine">Source</a>
-                                  </div>
-                              </div>
-                          </div>
-                  </div>
-
-            </div>
-
-            <div class="col-sm">
+                </div>
                 
-                <div class="card project-card">
-                    <h3 class="text-center display-4">Wattlogix Companion App</h3>
 
-                    <div class="container">
-                            <div class="row">
-                                <div class="col-sm">
-                                    <img src="assets/appDemo.png" class="project-img" width="300px">
-                                </div>
-                                <div class="col-sm">
-                                    <p>
-                                        This android app allows the user to view information about the battery controller in their rv equiped with a WattLogix battery control module.
-                                        The app uses Bluetooth LE to retrieve the voltage data from the battery control board and then displays it in the app's interface. This app was written in java and makes use
-                                        of android's bluetooth library and rxJava for controlling connetion state.
-                                    </p>
-                                    <a href="https://play.google.com/store/apps/details?id=com.earthcruiser.bluetoothtest">Play Store Listing</a>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-
-
-                <div class="card project-card">
-                    <h3 class="text-center display-4">Simple FPS</h3>
-
-                    <div class="container">
-                            <div class="row">
-                                <div class="col-sm">
-                                    <img src="assets/simpleFPS.gif" class="project-img" width="300px">
-                                </div>
-                                <div class="col-sm">
-                                    <p>Simple FPS is a first person viewpoint renderer based on the original wolfenstein game written in processing 3.4. Simple raycasts are used to determine
-                                        the how the walls are drawn and shaded.
-                                    </p>
-                                    <a href="https://github.com/Colin-Suckow/simple-fps">Source</a>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-
-                <div class="card project-card">
-                    <h3 class="text-center display-4">FIRST Robotics</h3>
-
-                    <div class="container">
-                            <div class="row">
-                                <div class="col-sm">
-                                    <img src="assets/frcRobot.jpg" class="project-img" width="300px">
-                                    <img src="assets/frcRobotBack.jpg" class="project-img" width="300px">
-                                </div>
-                                <div class="col-sm">
-                                    <p>In high school I was a member of my school's robotics team. Pictured is our robot from 2016 which made it to the world championship.
-                                        During this year I was lead programmer and mentor to our newer programmers. The code for the robot was written in java, and was responsible for responding to
-                                        commands from a network connected laptop and following a path on its own, using internal sensor data nad pre planed routes.
-                                    </p>
-                                    <a href="https://summitrobotics.com/">Team</a>
-                                    <a href="https://summitrobotics.com/"></a>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-
-
-
-            </div>
-
-    </div>
-
+           
 
         </div>
 
-    </div>
 
-
-    </main>
-
-    <footer class="container">
-      <p>Colin Suckow - @osu-cascades</p>
-    </footer>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+    </body>
 </html>
