@@ -1,0 +1,8 @@
++++
+title = "Getting started with rust on the STM32"
+date = 2020-08-04
++++
+
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu laoreet tellus. Sed eget nulla sollicitudin, maximus eros sit amet, commodo ex. Fusce vitae est sem. Pellentesque id velit tortor. Nam eget gravida erat. Ut semper convallis mi, ac suscipit dolor ullamcorper eget. Nulla sed elit porttitor, ullamcorper magna ac, consequat risus. Praesent faucibus blandit felis quis fermentum. Maecenas vehicula, lacus vitae suscipit finibus, mauris quam elementum odio, sit amet pellentesque urna arcu quis nibh. Mauris fermentum nibh ante, ac ullamcorper risus fermentum at. Suspendisse potenti. Fusce sit amet blandit nunc. Curabitur egestas purus id tincidunt accumsan. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Donec convallis lorem tempus ornare tempor. Cras posuere, mi vel efficitur venenatis, tellus quam mollis neque, ornare tempus dui lacus non augue. Quisque varius nulla ac ante ullamcorper, et vestibulum lorem accumsan. Nullam eros lectus, fermentum eu nunc eget, bibendum dictum libero. Vivamus vehicula libero id velit ultrices, ac iaculis felis laoreet. Nullam dapibus augue tortor, id euismod arcu malesuada nec. Phasellus ultricies ut sapien a imperdiet. Quisque posuere convallis ipsum eget egestas. Nam vitae viverra ipsum. Sed a eleifend erat. Sed auctor enim non mauris porttitor, in venenatis ex gravida. Proin tortor mauris, hendrerit sed mauris sed, ullamcorper fringilla purus. 
