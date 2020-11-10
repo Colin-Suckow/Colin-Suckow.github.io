@@ -24,12 +24,12 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     align-content: flex-start;
+    align-items: flex-start;
 }
 
 .project_frame {
     display: flex;
     width: 300px;
-    
     flex-direction: column;
     border: #ececec 1px solid;
     padding: 8px;
