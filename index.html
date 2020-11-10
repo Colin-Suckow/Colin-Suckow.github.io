@@ -1,0 +1,80 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Colin Suckow</title>
+    <meta name="description" content="Colin Suckow's personal site">
+    <meta name="author" content="Colin Suckow">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <h1>Colin Suckow</h1>
+        <span><a href="Resume.pdf">Resume</a> | <a href="https://www.linkedin.com/in/colin-suckow-5a9b8616b/">LinkedIn</a></span>
+    </div>
+
+    <div id="content">
+        <div id="greeting">
+            <h1>Hello!</h1>
+            <p>
+                I am a Computer Science student who is passionate about solving problems and learning new skills. I
+                enjoy
+                using a wide range
+                technologies and techniques to complete projects and deliver valuable results.
+            </p>
+        </div>
+
+
+        <h1>Personal Projects</h1>
+        <div id="projects_container">
+            <div class="project_frame">
+                <img src="images/dk.png" class="project_image">
+                <div class="project_text">
+                    <h3 class="project_title">Nintendo Emulator</h3>
+                    <p class="project_text">Nintendo Entertainment System emulator written in rust.
+                        Implements a 6502 processor and graphics display unit.
+                    </p>
+                    <a href="https://github.com/Colin-Suckow/rust-nes" class="project_link">Github</a>
+                </div>
+            </div>
+
+            <div class="project_frame">
+                <audio controls class="project_image">
+                    <source src="music/wii-stm32-v2.mp3" type="audio/mpeg">
+                </audio>
+                <div class="project_text">
+                    <h3 class="project_title">STM32 MIDI Synthesizer</h3>
+                    <p class="project_text">
+                        A basic toy synth with 16 polyphonic voices and a simple ADSR envelope. Accepts MIDI
+                        commands via serial port.
+                    </p>
+                    <a href="https://github.com/Colin-Suckow/STM32_Synth" class="project_link">Github</a>
+                </div>
+            </div>
+
+            <div class="project_frame">
+                <img src="images/vga_display_1.gif" class="project_image">
+                <div class="project_text">
+                    <h3 class="project_title">FPGA VGA Display Driver</h3>
+                    <p class="project_text">
+                        Outputs a 640x480 black and white image on a VGA interface. Accepts commands via an SPI
+                        interface.
+                        Written in Verilog and implemented on an Altera FPGA.
+                    </p>
+                    <a href="https://github.com/Colin-Suckow/rust-nes" class="project_link">Github</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
