@@ -75,3 +75,11 @@ audio {
     margin-top: 8px;
     margin-bottom: 8px;
 }
+
+#render_canvas {
+    box-shadow: #383838;
+}
+
+#controls_container {
+    text-align: left;
+}
